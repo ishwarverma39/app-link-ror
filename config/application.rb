@@ -10,9 +10,9 @@ module JiffleLogin
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.1
-    config.web_console.whiny_requests = false
-    config.web_console.whitelisted_ips = '192.168.20.61'
-    config.web_console.whitelisted_ips = '192.168.20.85'
+    # config.web_console.whiny_requests = false
+    # config.web_console.whitelisted_ips = '192.168.20.61'
+    # config.web_console.whitelisted_ips = '192.168.20.85'
 
 
 
