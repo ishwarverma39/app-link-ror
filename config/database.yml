@@ -4,6 +4,10 @@ default: &default
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
+development:
+  <<: *default
+  database: app_link_development
+
 production:
   <<: *default
   host: app-link-prod.cvspj2f5xy55.ap-south-1.rds.amazonaws.com

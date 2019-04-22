@@ -1,0 +1,15 @@
+{
+   "applinks":{
+      "apps":[
+
+      ],
+      "details":[
+         {
+            "appID":"1035543602.com.jifflenow.universallink",
+            "paths":[
+               "/mobile/callback"
+            ]
+         }
+      ]
+   }
+}
