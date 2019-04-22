@@ -6,8 +6,8 @@ default: &default
 
 production:
   <<: *default
-  host: jiffle-login-production.cv2qr9eokzp0.us-east-2.rds.amazonaws.com
+  host: app-link-prod.cvspj2f5xy55.ap-south-1.rds.amazonaws.com
   port: 5432  
-  database: jiffle_login_production
-  username: jiffle_login_production
-  password: jiffle_login_production
+  database: app_link_prod
+  username: app_link_prod
+  password: app_link_prod
