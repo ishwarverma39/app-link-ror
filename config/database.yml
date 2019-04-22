@@ -79,7 +79,8 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: jiffle-login_production
-  username: jiffle-login
-  password: <%= ENV['JIFFLE-LOGIN_DATABASE_PASSWORD'] %>
+  host: jiffle-login-production.cv2qr9eokzp0.us-east-2.rds.amazonaws.com
+  port: 5432  
+  database: jiffle_login_production
+  username: jiffle_login_production
+  password: jiffle_login_production
