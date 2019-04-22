@@ -5,6 +5,7 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 production:
+  <<: *default
   host: jiffle-login-production.cv2qr9eokzp0.us-east-2.rds.amazonaws.com
   port: 5432  
   database: jiffle_login_production
