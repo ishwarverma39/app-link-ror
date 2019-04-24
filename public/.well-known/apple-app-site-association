@@ -7,7 +7,7 @@
          {
             "appID":"P3NHEPYT7N.com.jsustaining.universallink",
             "paths":[
-               "/mobile/callback"
+               "*"
             ]
          }
       ]
