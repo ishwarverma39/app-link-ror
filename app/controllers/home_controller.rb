@@ -4,21 +4,7 @@ class HomeController < ApplicationController
   end
 
   def mobile_paths
-  	data = {
-	   "applinks":{
-	      "apps":[
-
-	      ],
-	      "details":[
-	         {
-	            "appID":"1035543602.com.jsustaining.universallink",
-	            "paths":[
-	               "/mobile/callback"
-	            ]
-	         }
-	      ]
-	   }
-	}
-	render json: data
+  	data = File.read("public/apple-app-site-association.json")
+	render json: data, :content_type => 'application/json', :status => 200
   end
 end
