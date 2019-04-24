@@ -4,7 +4,7 @@ class SessionsController < ApplicationController
   def create
     user = User.find_by_email(params[:email])
     if user && user.authenticate(params[:password])
-      redirect_to mobile_callback_url
+      redirect_to mobile_login_url
     else
       flash.now[:alert] = "Email or password is invalid"
       render "new"

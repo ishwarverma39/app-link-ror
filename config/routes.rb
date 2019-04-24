@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get 'logout', to: 'sessions#destroy', as: 'logout'
   get 'auth', to: 'mobile_auth#auth', as: 'auth'
   get '/mobile/callback', to: 'mobile_auth#callback', as: :mobile_callback
+  get '/mobile/login', to: 'mobile_auth#login', as: :mobile_login
   # get '/apple-app-site-association', to: 'home#mobile_paths'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

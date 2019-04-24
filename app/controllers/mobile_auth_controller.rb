@@ -8,4 +8,8 @@
 	def callback
 		render json: {message: "logged in successfully.", success: true}, status: 200
 	end
+
+	def login
+		
+	end
 end
