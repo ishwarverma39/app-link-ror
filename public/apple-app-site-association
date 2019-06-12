@@ -6,9 +6,7 @@
       "details":[
          {
             "appID":"P3NHEPYT7N.com.jsustaining.universallink",
-            "paths":[
-               "/mobile/callback", "mobile/login"
-            ]
+            "paths":["/mobile/callback/", "/mobile/login/"]
          }
       ]
    }
